@@ -1,18 +1,18 @@
 Package: penguins-eggs
 Architecture: amd64
-Version: 25.9.14-1
+Version: 25.9.17-1
 Source: penguins-eggs
 Maintainer: Piero Proietti
 Depends: coreutils, cryptsetup, cryptsetup-initramfs, curl, dbus-bin | uuidgen-runtime, dosfstools, dpkg-dev, git, grub-efi-amd64-bin, ipxe, isolinux, jq, live-boot, live-boot-doc, live-boot-initramfs-tools, live-config-systemd | live-config-sysvinit, live-tools, lvm2, nodejs (>= 18), parted, pxelinux, rsync, shim-signed, squashfs-tools, sshfs, syslinux-common, xorriso
 Suggests: calamares
 Conflicts: calamares-settings-debian, calamares-settings-ubuntu, eggs
 Replaces: eggs
-Filename: ./pool/main/penguins-eggs_25.9.14-1_amd64.deb
-Size: 21461380
-MD5sum: 59794024e6497925f3ed3920ed995033
-SHA1: be229e7f8bf168ae26bdabcb6e55694c6d34e5c5
-SHA256: cf94d731317a1e010dd4692928e3886e85285414aaf89cc5b6c81ae9893c002c
-SHA512: d7263268c4a4b1b993e987a4f8474c26444e777cc0e2601430e42f247e5e8eee7d7405fbd7dda15bccb36cc8db6c2bed6136030131cb121acfd45866a180ee49
+Filename: ./pool/main/penguins-eggs_25.9.17-1_amd64.deb
+Size: 21462832
+MD5sum: 887d858f31ec55a31c7588f0c0a53d71
+SHA1: d865f0d08993d2e1d4758b69f2868046cde30cfc
+SHA256: fd164c448f62d74bd09ff0d53556be5b93b993aff03c3df0de41fbdaed86080e
+SHA512: 30b74048301aeb6b3ac562e99ede8cb3eda0121ffd5fe111d1e7c5a48ecb70780de9dcfb373effbd6f618aa13a5a867038a7eeeaca8ac85a1e696b2ab4e56972
 Description: A remaster system tool, compatible with Arch, Debian, Devuan, Ubuntu and others
  Penguins-eggs is a versatile remastering tool that allows users to create
  custom live ISO images. It supports multiple Linux distributions, including
