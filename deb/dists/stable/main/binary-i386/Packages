@@ -8,11 +8,11 @@ Suggests: calamares
 Conflicts: calamares-settings-debian, calamares-settings-ubuntu, eggs
 Replaces: eggs
 Filename: ./pool/main/penguins-eggs_25.9.14-1_i386.deb
-Size: 21460372
-MD5sum: 4f5e8de72e8514c46f98e782a67696d7
-SHA1: 7ce30b68db23046d9f534863db4409c542f4267f
-SHA256: 279cda3ac0c81e13a48f28306c12d4a3696e4d9bec4c613d4a548c465c0bc460
-SHA512: 148f077c4239eace40ac816e5ca23ee4635a4c730e40e74c1c0e7b382ddea1018c2c0893ce88ba96462d75bfcfa4649d9536b46dbad8925dd4171d145fa3f662
+Size: 21460624
+MD5sum: fd4e5266158898494205e30777793d72
+SHA1: 4ef7504541faec7a97bbd4729d5b7c2ea25330bb
+SHA256: 38986afa9ea2336c2c63345232600624601483605cb6292ed58d25d4fd171098
+SHA512: 4da9bd9448417ca01096177bad0b2c8b2c12670e9031b0a377f383c71446b7f80bfcf4c01d86748ae0165ecf2d36eafa99a0cd626864c25064fde4ddd6c4a51a
 Description: A remaster system tool, compatible with Arch, Debian, Devuan, Ubuntu and others
  Penguins-eggs is a versatile remastering tool that allows users to create
  custom live ISO images. It supports multiple Linux distributions, including
