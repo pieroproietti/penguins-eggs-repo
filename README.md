@@ -1,6 +1,6 @@
 # penguins-eggs-repo
 
-This is a repository for the penguins-eggs package distributed nativaly across multiple distros:
+This is a repository for the [penguins-eggs](https://github.com/pieroproietti/) package distributed nativaly across multiple distros:
 
 * [ALPINE](https://github.com/pieroproietti/penguins-eggs/blob/master/DOCS/INSTALL-ALPINE.md)
 * [ARCHLINUX](https://github.com/pieroproietti/penguins-eggs/blob/master/DOCS/INSTALL-ARCHLINUX.md)
@@ -8,3 +8,5 @@ This is a repository for the penguins-eggs package distributed nativaly across m
 * [ENTERPRISE-LINUX](https://github.com/pieroproietti/penguins-eggs/blob/master/DOCS/INSTALL-ENTERPRISE-LINUX.md)
 * [FEDORA](https://github.com/pieroproietti/penguins-eggs/blob/master/DOCS/INSTALL-FEDORA.md)
 * [OPENSUSE](https://github.com/pieroproietti/penguins-eggs/blob/master/DOCS/INSTALL-OPENSUSE.md)
+
+## Blog: https://penguins-eggs.net
