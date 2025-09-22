@@ -1,0 +1,10 @@
+#!/bin/bash
+scp ./alpine/x86_64/packaging/x86_64/penguins-eggs-*-r?.apk     root@192.168.1.2:/eggs/alpine/x86_64/
+scp ./arch/penguins-eggs*-any.pkg.tar.zst                        root@192.168.1.2:/eggs/aur
+scp ./deb/pool/main/penguins-eggs*amd64.deb                     root@192.168.1.2:/eggs/debs
+scp ./deb/pool/main/penguins-eggs*arm64.deb                     root@192.168.1.2:/eggs/debs
+scp ./deb/pool/main/penguins-eggs*i386.deb                      root@192.168.1.2:/eggs/debs
+scp ./manjaro/penguins-eggs-*-any.pkg.tar.zst                   root@192.168.1.2:/eggs/manjaro
+scp ./rpm/fedora/42/penguins-eggs-25.9.18-1.fc42.x86_64.rpm     root@192.168.1.2:/eggs/fedora
+scp .rpm/el/9/penguins-eggs-25.9.18-1.el9.x86_64.rpm            root@192.168.1.2:/eggs/el9
+scp rpm/opensuse/leap/penguins-eggs-25.9.18-1.x86_64.rpm        root@192.168.1.2:/eggs/opensuse
