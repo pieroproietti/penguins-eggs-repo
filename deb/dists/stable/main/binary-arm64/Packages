@@ -40,3 +40,24 @@ Description: A remaster system tool, compatible with Arch, Debian, Devuan, Ubunt
  Arch, Debian, Devuan, Ubuntu, and others.
 Standards-Version: 4.5.0
 
+Package: penguins-eggs
+Architecture: arm64
+Version: 25.9.27-1
+Source: penguins-eggs
+Maintainer: Piero Proietti
+Depends: coreutils, cryptsetup, cryptsetup-initramfs, curl, dbus-bin | uuidgen-runtime, dosfstools, dpkg-dev, git, gpg, grub-efi-arm64-bin, ipxe, jq, live-boot, live-boot-doc, live-boot-initramfs-tools, live-config-systemd | live-config-sysvinit, live-tools, lvm2, nodejs (>= 18), parted, pxelinux, rsync, shim-signed, squashfs-tools, sshfs, u-boot-tools, xorriso
+Suggests: calamares
+Conflicts: calamares-settings-debian, calamares-settings-ubuntu, eggs
+Replaces: eggs
+Filename: ./pool/main/penguins-eggs_25.9.27-1_arm64.deb
+Size: 21500844
+MD5sum: a9ff2999e17a4f6e0febaa343ed6e0e1
+SHA1: de9043c6fe1ffdd590acb7ab54d0ecde8179ed68
+SHA256: 352913e3884a468f509a053958498b40f2ac7f914a758ce68aa8d362b4b2017b
+SHA512: 58f22843184096793da3f0ae6a7182d61638eec373333393a1e27c88b351b871ac2f7a65b6d82731dd0fbf1e4a11d8dc8b3c3fa30df3571f39360901cf07b750
+Description: A remaster system tool, compatible with Arch, Debian, Devuan, Ubuntu and others
+ Penguins-eggs is a versatile remastering tool that allows users to create
+ custom live ISO images. It supports multiple Linux distributions, including
+ Arch, Debian, Devuan, Ubuntu, and others.
+Standards-Version: 4.5.0
+
