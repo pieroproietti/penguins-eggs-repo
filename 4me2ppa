@@ -1,4 +1,5 @@
 #!/bin/bash
-cp ./deb/pool/main/penguins-eggs*amd64.deb ../penguins-eggs-ppa/dists/amd64
-cp ./deb/pool/main/penguins-eggs*arm64.deb ../penguins-eggs-ppa/dists/arm64
-cp ./deb/pool/main/penguins-eggs*i386.deb ../penguins-eggs-ppa/dists/i386
+VER=$1
+cp ./deb/pool/main/penguins-eggs*$VER*amd64.deb ../penguins-eggs-ppa/dists/amd64
+cp ./deb/pool/main/penguins-eggs*$VER*arm64.deb ../penguins-eggs-ppa/dists/arm64
+cp ./deb/pool/main/penguins-eggs*$VER*i386.deb ../penguins-eggs-ppa/dists/i386
