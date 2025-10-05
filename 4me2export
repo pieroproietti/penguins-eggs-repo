@@ -1,9 +1,17 @@
 #!/bin/bash
+clear
 VER=$1
+# Controlla se la variabile VER è vuota
+if [ -z "$VER" ]; then
+  echo "Errore: è necessario specificare un numero di versione."
+  echo "Uso: $0 <versione>"
+  exit 1
+fi
 
 # Chiede la password in modo sicuro (non la mostra a schermo)
 read -sp "Inserisci la password per root@192.168.1.2: " SSH_PASSWORD
 echo # Aggiunge una riga vuota per pulizia
+
 
 # Esporta la password per sshpass
 export SSHPASS="$SSH_PASSWORD"
