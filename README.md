@@ -1,6 +1,5 @@
-# penguins-eggs-repo
-
 ![](./penguins-eggs-repo.png)
+# penguins-eggs-repo
 
 There are several native repositories for [penguins-eggs](https://github.com/pieroproietti/penguins-eggs) depending on your distribution.
 
