@@ -1,5 +1,7 @@
 # penguins-eggs-repo
 
+![](./penguins-eggs-repo.jpg)
+
 There are several native repositories for [penguins-eggs](https://github.com/pieroproietti/penguins-eggs) depending on your distribution.
 
 * [penguins-eggs Alpine Linux repo](https://github.com/pieroproietti/penguins-eggs/blob/master/DOCS/INSTALL-ALPINE.md)
